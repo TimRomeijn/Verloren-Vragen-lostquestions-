@@ -1,0 +1,26 @@
+*--------------------------*
+| Changelog / Terms of Use |
+*--------------------------*
+
+This is the Root / Master script for the GUIMaster system, each component subscribes to the master and the master will take care of all the scaling of the elements.
+
+Changelog: 
+- 1.2 > 26/11/2013 > Modified scaling for more precise scaling, added GUIStyle scaling for GUIContent like text. 
+- 1.3 > 17/12/2013 > Changed the way the updates work to drastically improve performance (Overhead used to be 20% reduced to 0.1% as of now)
+- 1.4 > 17/06/2014 > Class changed to a static to remove neccesity to get the GUIMaster class with a getter. 
+- 2.0 > 21/05/2015 > Compiled to a DLL for easy access and less issues with newer Unity versions. Optimized for Unity 5.
+
+Author: Marc Zijderveld
+Original Date: 02/11/2013
+Version: 2.0
+
+[Components]
+- GUIMember: The Gameobject element containing all the rectangles.
+- GUIMemberComponent: A small include which you can inherit from for GUIElements.
+- DictionaryExtensions: Added dictionary functionality.
+- ResolutionManager: Contains information about the default resolution and triggers resolution changes.
+
+This unity interface utility is written to make it easier to use the unity GUI system with a convenient scaling system without the general hastle of defining rectangles and any other scaling issues.
+You are free to distribute this package within any game / project aslong as this product is not sold seperately.
+
+Sleepyz-Games 2014(C)

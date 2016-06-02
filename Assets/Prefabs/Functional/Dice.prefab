@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &173710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 403694}
+  - 114: {fileID: 11491458}
+  - 114: {fileID: 11405226}
+  m_Layer: 0
+  m_Name: Dice
+  m_TagString: DiceManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403694
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11405226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d07e4657bc567341bde3afdef20c0e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstDiceRect: DICE1
+  secondDiceRect: DICE2
+  diceTextRect: DICE_TEXT
+  jumpsLeftRect: LEFT_TEXT
+  messageRect: QUESTION_MESSAGE
+  messageButtonRect: QUESTION_MESSAGE_BUTTON
+  currentDiceTexture: {fileID: 2800000, guid: 59c6ef03ec4e99843ab849756b410bae, type: 3}
+  rollAmounts: 12
+  delay: .0500000007
+  textStyle:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: .485294104, g: .0856401324, b: .0856401324, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: .48627454, g: .0862745121, b: .0862745121, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: .48627454, g: .0862745121, b: .0862745121, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: .48627454, g: .0862745121, b: .0862745121, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: .48627454, g: .0862745121, b: .0862745121, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: .48627454, g: .0862745121, b: .0862745121, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: 38b9d29ad24589443ad0cede96667550, type: 3}
+    m_FontSize: 24
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  boxStyle:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: fee469f0bceeb8b4ea9ccdbfb09015b4, type: 3}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: fee469f0bceeb8b4ea9ccdbfb09015b4, type: 3}
+      m_TextColor: {r: .441176474, g: .116782017, b: .116782017, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: fee469f0bceeb8b4ea9ccdbfb09015b4, type: 3}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: fee469f0bceeb8b4ea9ccdbfb09015b4, type: 3}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: fee469f0bceeb8b4ea9ccdbfb09015b4, type: 3}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: fee469f0bceeb8b4ea9ccdbfb09015b4, type: 3}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: fee469f0bceeb8b4ea9ccdbfb09015b4, type: 3}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: fee469f0bceeb8b4ea9ccdbfb09015b4, type: 3}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: 38b9d29ad24589443ad0cede96667550, type: 3}
+    m_FontSize: 24
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  diceTextures:
+  - number: 1
+    texture: {fileID: 2800000, guid: 59c6ef03ec4e99843ab849756b410bae, type: 3}
+  - number: 2
+    texture: {fileID: 2800000, guid: bafe34396eea2b143ba5cfb802ce94c2, type: 3}
+  - number: 3
+    texture: {fileID: 2800000, guid: 7a835a2d84f010c42a6d89c3f2bbdc41, type: 3}
+  - number: 4
+    texture: {fileID: 2800000, guid: 2f6de627d6489e4488b7f696d0a87aa5, type: 3}
+  - number: 5
+    texture: {fileID: 2800000, guid: 609a619644a96724fb5a07426596f9d7, type: 3}
+  - number: 6
+    texture: {fileID: 2800000, guid: 8d6386aaea4b0b84a884a9405905fa3a, type: 3}
+--- !u!114 &11491458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7fc074c988a4647b51f40da2e026cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diceType: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 173710}
+  m_IsPrefabParent: 1

@@ -1,0 +1,393 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &177480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 419406}
+  - 114: {fileID: 11467524}
+  m_Layer: 0
+  m_Name: QuestionManager
+  m_TagString: QuestionManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &419406
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.444622, y: 24.0734138, z: 29.9679966}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11467524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e665cfc520c1e184191b3c421b23a921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questions:
+  - correctAnswer: 0
+    difficulty: 0
+    questionText: Wat betekend Zoo?
+    answers:
+    - answerText: Dierentuin
+    - answerText: Zwembad
+    - answerText: Schoen
+    - answerText: School
+  - correctAnswer: 2
+    difficulty: 0
+    questionText: Wat zijn Cheeks?
+    answers:
+    - answerText: Armen
+    - answerText: Tenen
+    - answerText: Wangen
+    - answerText: Haar
+  - correctAnswer: 3
+    difficulty: 0
+    questionText: Wat is een Moustache?
+    answers:
+    - answerText: Pet
+    - answerText: bal
+    - answerText: tanden
+    - answerText: snor
+  - correctAnswer: 1
+    difficulty: 0
+    questionText: Wat is een Fireman?
+    answers:
+    - answerText: astronaut
+    - answerText: brandweerman
+    - answerText: leraar
+    - answerText: iemand die met vuur speelt
+  - correctAnswer: 0
+    difficulty: 0
+    questionText: Wat is een Axe?
+    answers:
+    - answerText: bijl
+    - answerText: bij
+    - answerText: raceauto
+    - answerText: stier
+  - correctAnswer: 3
+    difficulty: 0
+    questionText: Wat betekend Livingroom?
+    answers:
+    - answerText: keuken
+    - answerText: schuur
+    - answerText: zoler
+    - answerText: huiskamer
+  - correctAnswer: 0
+    difficulty: 0
+    questionText: Wat zijn Shoes?
+    answers:
+    - answerText: schoenen
+    - answerText: schepen
+    - answerText: vlinders
+    - answerText: zwervers
+  - correctAnswer: 0
+    difficulty: 0
+    questionText: Wat is een Vlinder in het engels?
+    answers:
+    - answerText: butterfly
+    - answerText: flyer
+    - answerText: colorfly
+    - answerText: flies
+  - correctAnswer: 0
+    difficulty: 1
+    questionText: Waar in Nederland staan nog hunnenbedden?
+    answers:
+    - answerText: drenthe
+    - answerText: zeeland
+    - answerText: flevoland
+    - answerText: noord-holland
+  - correctAnswer: 2
+    difficulty: 1
+    questionText: 'Welk volk was 2500 jaar geleden de meeste macht in europa '
+    answers:
+    - answerText: germanen
+    - answerText: vikingen
+    - answerText: romeinen
+    - answerText: russen
+  - correctAnswer: 3
+    difficulty: 1
+    questionText: Welk van deze uitvindingen werd niet gemaakt door romeinen?
+    answers:
+    - answerText: badhuis
+    - answerText: wegenstelsel
+    - answerText: viaduct
+    - answerText: kanon
+  - correctAnswer: 2
+    difficulty: 1
+    questionText: Waar leefde de vikings vroeger?
+    answers:
+    - answerText: noord-afrika
+    - answerText: china
+    - answerText: scandinavie
+    - answerText: spanje
+  - correctAnswer: 0
+    difficulty: 1
+    questionText: In de middeleeuwen voerde de ridder kruistochten uit. Waar gingen
+      deze kruistochten heen?
+    answers:
+    - answerText: jeruzalem
+    - answerText: indonesie
+    - answerText: egypte
+    - answerText: amerika
+  - correctAnswer: 2
+    difficulty: 1
+    questionText: Wie ontdekte amerika?
+    answers:
+    - answerText: napolion
+    - answerText: willem van oranje
+    - answerText: columbus
+    - answerText: alexaner de grote
+  - correctAnswer: 0
+    difficulty: 1
+    questionText: Julius Cesar was een...?
+    answers:
+    - answerText: romein
+    - answerText: griek
+    - answerText: viking
+    - answerText: egyptenaar
+  - correctAnswer: 1
+    difficulty: 1
+    questionText: Wat was in de middeleeuwen een andere naam voor ziekte pest?
+    answers:
+    - answerText: witte dood
+    - answerText: zwarte dood
+    - answerText: verschikkelijke dood
+    - answerText: magere dood
+  - correctAnswer: 0
+    difficulty: 2
+    questionText: 7 X 8
+    answers:
+    - answerText: 56
+    - answerText: 65
+    - answerText: 655
+    - answerText: 52
+  - correctAnswer: 3
+    difficulty: 2
+    questionText: '28 : 4'
+    answers:
+    - answerText: 9
+    - answerText: 8
+    - answerText: 6
+    - answerText: 7
+  - correctAnswer: 3
+    difficulty: 2
+    questionText: '110: 10'
+    answers:
+    - answerText: 10
+    - answerText: 12
+    - answerText: 14
+    - answerText: 11
+  - correctAnswer: 1
+    difficulty: 2
+    questionText: '18 : 9'
+    answers:
+    - answerText: 6
+    - answerText: 2
+    - answerText: 4
+    - answerText: 9
+  - correctAnswer: 1
+    difficulty: 2
+    questionText: 650 + 220
+    answers:
+    - answerText: 870
+    - answerText: 970
+    - answerText: 770
+    - answerText: 550
+  - correctAnswer: 0
+    difficulty: 2
+    questionText: 0,5 + 0,4
+    answers:
+    - answerText: 0,9
+    - answerText: 0,09
+    - answerText: 9
+    - answerText: 0,009
+  - correctAnswer: 3
+    difficulty: 2
+    questionText: 2,5 meter is hoeveel centimeter?
+    answers:
+    - answerText: 2,5
+    - answerText: 2500
+    - answerText: 25
+    - answerText: 250
+  - correctAnswer: 0
+    difficulty: 2
+    questionText: 60 - 35
+    answers:
+    - answerText: 35
+    - answerText: 25
+    - answerText: 45
+    - answerText: 55
+  - correctAnswer: 0
+    difficulty: 4
+    questionText: Hoeveel provincie heeft Nederland?
+    answers:
+    - answerText: 12
+    - answerText: 11
+    - answerText: 23
+    - answerText: 8
+  - correctAnswer: 2
+    difficulty: 4
+    questionText: Wat is de hoofdstad van Italie?
+    answers:
+    - answerText: parijs
+    - answerText: milaan
+    - answerText: rome
+    - answerText: turijn
+  - correctAnswer: 2
+    difficulty: 4
+    questionText: Wat is de hoofdstad van Duitsland?
+    answers:
+    - answerText: brussel
+    - answerText: hamburg
+    - answerText: berlijn
+    - answerText: tokyo
+  - correctAnswer: 3
+    difficulty: 4
+    questionText: Welk land is met een onderwatertunnel verbonden met Engeland?
+    answers:
+    - answerText: turkije
+    - answerText: india
+    - answerText: mexico
+    - answerText: france
+  - correctAnswer: 3
+    difficulty: 4
+    questionText: Wat is de hoofdstad van Nederland?
+    answers:
+    - answerText: amsterdam
+    - answerText: rotterdam
+    - answerText: haarlem
+    - answerText: den haag
+  - correctAnswer: 0
+    difficulty: 4
+    questionText: Hoe heet de zee tussen Europa en Afrika?
+    answers:
+    - answerText: middelandse zee
+    - answerText: stille oceaan
+    - answerText: rode zee
+    - answerText: golf van mexico
+  - correctAnswer: 1
+    difficulty: 4
+    questionText: Welk van deze rivieren stroomt door Nederland?
+    answers:
+    - answerText: donau
+    - answerText: rijn
+    - answerText: rhone
+    - answerText: nijl
+  - correctAnswer: 1
+    difficulty: 4
+    questionText: Welk continent is het grootst?
+    answers:
+    - answerText: europa
+    - answerText: azie
+    - answerText: noord amerika
+    - answerText: zuid amerika
+  - correctAnswer: 0
+    difficulty: 3
+    questionText: Welk woord is FOUT gespeld?
+    answers:
+    - answerText: vreseluk
+    - answerText: geheim
+    - answerText: gelegenheid
+    - answerText: reizigers
+  - correctAnswer: 3
+    difficulty: 3
+    questionText: Welk woord is FOUT gespeld?
+    answers:
+    - answerText: servies
+    - answerText: familie
+    - answerText: bezigheid
+    - answerText: vurjaardag
+  - correctAnswer: 0
+    difficulty: 3
+    questionText: Welk woord is FOUT gespeld?
+    answers:
+    - answerText: belachlijk
+    - answerText: verplichting
+    - answerText: telefoon
+    - answerText: sportkrant
+  - correctAnswer: 2
+    difficulty: 3
+    questionText: Welk woord is FOUT gespeld?
+    answers:
+    - answerText: ijverig
+    - answerText: kluiven
+    - answerText: bemoejen
+    - answerText: werken
+  - correctAnswer: 3
+    difficulty: 3
+    questionText: Welk woord is FOUT gespeld?
+    answers:
+    - answerText: vijand
+    - answerText: oversteken
+    - answerText: operatie
+    - answerText: schreiven
+  - correctAnswer: 3
+    difficulty: 3
+    questionText: Welk woord is GOED gespeld?
+    answers:
+    - answerText: kieselsteen
+    - answerText: regelmatig
+    - answerText: drempol
+    - answerText: servies
+  - correctAnswer: 1
+    difficulty: 3
+    questionText: Welk woord is GOED gespeld?
+    answers:
+    - answerText: heuvol
+    - answerText: pech
+    - answerText: waarhijd
+    - answerText: smeltun
+  - correctAnswer: 1
+    difficulty: 3
+    questionText: Welk woord is GOED gespeld?
+    answers:
+    - answerText: droeveg
+    - answerText: medelijden
+    - answerText: matroozen
+    - answerText: etensteid
+  - correctAnswer: 1
+    difficulty: 3
+    questionText: Welk woord is GOED gespeld? fdsfasf
+    answers:
+    - answerText: droeveg
+    - answerText: medelijden
+    - answerText: matroozen
+    - answerText: etensteid
+  textures:
+  - type: 0
+    texture: {fileID: 2800000, guid: b625722285e6de545a9da2028f91f9b4, type: 3}
+  - type: 1
+    texture: {fileID: 2800000, guid: b7094bc26c1f47b4cbc6eb972316fccc, type: 3}
+  - type: 2
+    texture: {fileID: 2800000, guid: eae9225714ea76548a00a5cdf2d3587b, type: 3}
+  - type: 4
+    texture: {fileID: 2800000, guid: 184badc39b7e4b24396740310c80ad3c, type: 3}
+  - type: 3
+    texture: {fileID: 2800000, guid: 19a5d4a7baf5ed6428671d8aaf177813, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 177480}
+  m_IsPrefabParent: 1
